@@ -1,3 +1,18 @@
+:root {
+  --accent: #b19cd9;        /* Lila suave del logo */
+  --accent-bg: #22172b;     /* Morado oscuro sutil para fondos */
+  --accent-border: #8a6fb0;  /* Morado intermedio para bordes en hover */
+  --social-bg: #1c1324;     /* Fondo oscuro coordinado */
+  --border: #352545;        /* Borde oscuro con matiz morado */
+  --text-h: #e6e1f0;        /* Texto claro con un toque morado suave */
+  --shadow: 0 4px 12px rgba(34, 23, 43, 0.4);
+}
+
+body {
+  background-color: #160e1d; /* Fondo general oscuro acorde al logo */
+  color: var(--text-h);
+}
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;
